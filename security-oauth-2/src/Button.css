@@ -1,0 +1,38 @@
+.naver-login-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.3s ease;
+  display: inline-block;
+}
+
+.naver-login-btn:hover {
+  opacity: 0.8;
+}
+
+.naver-login-btn img {
+  height: 40px; /* 이미지 높이를 조정할 수 있습니다 */
+  width: auto;
+  display: block;
+}
+
+.get-data-btn {
+  background-color: #4a90e2; /* 어두운 하늘색 계열 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: 40px; /* Naver 로그인 버튼과 동일한 높이 */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-data-btn:hover {
+  background-color: #3a7bc8; /* 호버 시 약간 더 어두운 색상 */
+}
